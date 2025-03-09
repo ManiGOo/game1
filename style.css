@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#rock {
+    background-color: #ff6666;
+}
+
+#paper {
+    background-color: #66b3ff;
+}
+
+#scissors {
+    background-color: #66ff66;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}
